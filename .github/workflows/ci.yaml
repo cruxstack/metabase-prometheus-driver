@@ -27,7 +27,7 @@ jobs:
       - name: Check Out Repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Install Atmos
-        uses: cloudposse/github-action-setup-atmos@89c34b209108da66a27c8d6565d8d4b21dbdaa73 # v3.2.0
+        uses: cloudposse/github-action-setup-atmos@60878d48037763f759aedee74e9cc0c2dc88e9ec # v3.5.0
         with:
           atmos-version: 1.224.1
           install-wrapper: false
@@ -61,7 +61,7 @@ jobs:
       - name: Check Out Repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Install Atmos
-        uses: cloudposse/github-action-setup-atmos@89c34b209108da66a27c8d6565d8d4b21dbdaa73 # v3.2.0
+        uses: cloudposse/github-action-setup-atmos@60878d48037763f759aedee74e9cc0c2dc88e9ec # v3.5.0
         with:
           atmos-version: 1.224.1
           install-wrapper: false
