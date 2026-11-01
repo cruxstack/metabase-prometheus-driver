@@ -19,7 +19,7 @@ services:
         target: /workspace
 
   mimir:
-    image: grafana/mimir:3.1.4@sha256:ea395743a08cc1f41ede12a7264613cb32f0268bbda6277f12a5929b71625a41
+    image: grafana/mimir:3.2.3@sha256:0ed56db7d7713707eff00224ddd4c3096afa6cf1cbe43a6f9391c537f1416099
     profiles: [demo, integration, compatibility]
     init: true
     command:
@@ -36,7 +36,7 @@ services:
         target: /data
 
   mimir-seed:
-    image: grafana/mimir:3.1.4@sha256:ea395743a08cc1f41ede12a7264613cb32f0268bbda6277f12a5929b71625a41
+    image: grafana/mimir:3.2.3@sha256:0ed56db7d7713707eff00224ddd4c3096afa6cf1cbe43a6f9391c537f1416099
     profiles: [demo]
     init: true
     depends_on:
