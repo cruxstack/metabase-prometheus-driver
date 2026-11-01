@@ -29,7 +29,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Install Atmos
-        uses: cloudposse/github-action-setup-atmos@89c34b209108da66a27c8d6565d8d4b21dbdaa73 # v3.2.0
+        uses: cloudposse/github-action-setup-atmos@ad511faf93143d80f9f73ebdbc00dbdcea6d6bb0 # v3.7.0
         with:
           atmos-version: 1.224.1
           install-wrapper: false
